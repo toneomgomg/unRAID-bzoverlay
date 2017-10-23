@@ -60,7 +60,7 @@ Create filesystem and mount it
 ```
 mkfs.vfat -n BOOTDISK /dev/sdx1
 mkdir /mnt/unraid_disk
-mount /dev/sdb1 /mnt/unraid_disk
+mount /dev/sdx1 /mnt/unraid_disk
 ```
 
 Copy unRAID files from usb flash drive. (Substitute /boot/* with path to usb flash drive, if not on unraid system.)
